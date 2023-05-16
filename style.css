@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* START */
+
+#start {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("AdobeStock_300522840.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#start .content header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+
+} 
+
+#start .content header .content-header {
+    max-width: 1100px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#start .content header .content-header h1 {
+    text-align: center;
+    color: #ff5080;
+}
+
+#start .content header .content-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#start .content header .content-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: 1s;
+}
+
+#start .content header .content-header nav ul li a:hover {
+    color: #ff5080;
+}
+
+#start .content header .content-header .social-media a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#start .content header .content-header .social-media a:hover {
+    color: #ff5080;
+}
+
+#start .content .introduction {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#start .content .introduction .Welcome {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#start .content .introduction h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#start .content .introduction h2 span {
+    font-size: 55px;
+    color: #ff5080;
+}
+
+#start .content .introduction .description {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#start .content .introduction a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 2s;
+}
+
+#start .content .introduction a:hover {
+    background-color: #ff5080;
+}
+
+#icon-nav {
+    color: #fff;
+    display: none;
+}
+
+/* ABOUT ME SECTION */
+
+#aboutme {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#aboutme .foto-content {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#aboutme .foto-content img {
+    padding: 10px;
+    width: 130%;
+    border-radius: 200px;
+    background-color: #f3f3f3;
+    position: relative;
+    left: -50px;
+}
+
+#aboutme .aboutme {
+    margin: 0 40px;
+}
+
+#aboutme .aboutme .title-section {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+    padding-top: 18px;
+}
+
+#aboutme .aboutme h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#aboutme .aboutme h2 span {
+    color: #ff5080;
+}
+
+#aboutme .aboutme h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#aboutme .aboutme p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+#aboutme .aboutme a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#aboutme .aboutme a:hover {
+    background-color: #ff5080;
+    color: #fff;
+}
+
+/* SKILLS SECTION */
+
+/* PORTFOLIO SECTION */
+
+#portfolio {
+    max-width: 1100px;
+    padding: 100px 0;
+    background-color: #fff;
+    background-size: cover;
+    margin: auto;
+}
+
+#portfolio .title-section {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ff5080;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+    padding: 30px;
+}
+
+#portfolio .line {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10;
+}
+
+#portfolio .line .project {
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 10px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+#portfolio .line .project img {
+    width: 100%;
+    height: 100%;
+    ;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+
+#portfolio .line .project:hover img {
+    filter: grayscale(0);
+}
+
+#portfolio .line .project .info {
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff5080;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+
+#portfolio .line .project:hover .info {
+    opacity: 1;
+    bottom: 0;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+    padding: 100px 15px;
+    background-color: #f3f3f3;
+} 
+
+#contact .title-section {
+    margin-bottom: 20px;
+}
+
+
+#contact .form-content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+#contact .form-content .line {
+    margin-bottom: 15px;
+}
+
+#contact .form-content .center-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#contact .form-content .center-line .input-mid {
+    position: relative;
+    right: -20px;
+}
+
+#contact .form-content .center-line .input-midd {
+    position: relative;
+    left: -20px;
+}
+
+#contact .form-content input, 
+#contact .form-content textarea {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+}
+
+#contact .form-content .center-line input {
+    width: 50%;
+}
+
+#contact .form-content .input-full {
+    width: 100%;
+}
+
+#contact .title-section {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#contact .btn-send {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px !important;
+}
+
+#contact .btn-send:hover {
+    background-color: #ff5080;
+    color: #fff;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
