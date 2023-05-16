@@ -14,265 +14,286 @@
 
 </head>
 <style>
-    .container-skills{
-    background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, .8)), url("coding-1853305_1280.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.container-skills h3,p {
-    color: #fff;
-}
-
-.container-skills .porcentaje {
-    color: #fff;
-}
-
-.container-skills .skill {
-    max-width: 600px;
-    margin: 30px auto;
-}
-
-.container-skills .skill .info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-skills .skill .lista {
-    display: inline-block;
-    margin-right: 20px;
-    height: 10px;
-    width: 10px;
-    background-color: #fff;
-}
-
-.container-skills .skill .barra {
-    background-color: #919191;
-    width: 100%;
-    height: 6px;
-    margin: 10px 0;
-}
-
-.container-skills .skill .barra .barra-progreso1 {
-    background-color: #fff;
-    width: 95%;
-    height: 6px;
-    animation: progreso1 2s forwards;
-}
-
-.container-skills .skill .barra .barra-progreso2 {
-    background-color: #fff;
-    width: 95%;
-    height: 6px;
-    animation: progreso2 2s forwards;
-}
-
-.container-skills .skill .barra .barra-progreso3 {
-    background-color: #fff;
-    width: 60%;
-    height: 6px;
-    animation: progreso3 2s forwards;
-}
-
-.container-skills .skill .barra .barra-progreso4 {
-    background-color: #fff;
-    width: 50%;
-    height: 6px;
-    animation: progreso4 2s forwards;
-}
-
-.container-skills .skill .barra .barra-progreso5 {
-    background-color: #fff;
-    width: 50%;
-    height: 6px;
-    animation: progreso5 2s forwards;
-}
-
-@keyframes progreso1 {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 95%;
-    }
-}
-
-@keyframes progreso2 {
-    0% {
-         width: 0%;
-    }
-    100% {
-        width: 95%;
-    }
-}
-
-@keyframes progreso3 {
-    0% {
-         width: 0%;
-    }
-    100% {
-        width: 60%;
-    }
-}
-
-@keyframes progreso4 {
-    0% {
-         width: 0%;
-    }
-    100% {
-        width: 50%;
-    }
-}
-
-@keyframes progreso5 {
-    0% {
-         width: 0%;
-    }
-    100% {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .social-media {
-        display: none;
-    }
-    nav {
-        display: none;
-    }
-    nav.responsive {
-        display: block;
-        background-color: rgba(0, 0, 0, .8);
-        width: 100%;
-        position: absolute;
-        top: 48px;
-        left: 0;
-        right: 0;
-        padding: 10px 0;
-    }
-
-    nav.responsive ul {
-        display: block !important;
-        text-align: center;
-    }
-
-    nav.responsive ul li {
-        margin: 5px 0;
-    }
-
-    #icon-nav {
-        display: block;
-    }
-
-    #start .content .introduction h2 {
-        font-size: 40px;
-    }
-
-    #start .content .introduction a:hover {
-        background-color: #ff5080;
-    }
-    
-    /*ABOUT ME section*/
-
-    #aboutme{
-        padding: 50px 0;
-        display: block;
-        right: 0;
-    }
-
-    #aboutme .foto-content{
-        margin: auto;
-        max-width: 250px;
-        margin-left: 110px;
-    }
-
-    #aboutme .form-content img{
-        padding: 8px;
-    }
-
-    #aboutme .aboutme .title-section {
-        text-align: center;
-    }
-
-    #aboutme .aboutme h2 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    #aboutme .aboutme {
-        margin: 0;
-    }
-
-    /*SKILLS Section*/
-
     .container-skills {
-        padding: 50px 20px;
-        right: 0;
+        background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, .8)), url("coding-1853305_1280.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 100px 0;
+        text-align: center;
     }
 
-    /* PORTFOLIO Section*/
-
-    #portfolio {
-        padding: 50px 0;
-        right: 0;
+    .container-skills h3,
+    p {
+        color: #fff;
     }
 
-    #portfolio .line {
-        display: block;
+    .container-skills .porcentaje {
+        color: #fff;
     }
 
-    #portfolio .line .project {
-        margin: 10px auto;
+
+    .container-skills .skill {
+        max-width: 600px;
+        margin: 30px auto;
     }
 
-    #portfolio .line .porject .overlay {
-        margin-bottom: 70px;
+    .container-skills .skill .info {
+        display: flex;
+        justify-content: space-between;
     }
 
-    /* CONTACT ME Section*/
-    #contact {
-        padding: 50px 15px;
-        right: 0;
+    .container-skills .skill .lista {
+        display: inline-block;
+        margin-right: 20px;
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
     }
 
-    #contact .form-content .center-line {
-        display: block;
-        padding: inherit;
-    }
-
-    #contact .form-content .center-line input {
+    .container-skills .skill .barra {
+        background-color: #919191;
         width: 100%;
-        margin-bottom: 2px;
-        margin-left: -22px;
+        height: 6px;
+        margin: 10px 0;
     }
 
-    #contact .form-content .center-line .input-midd {
-        margin-bottom: 27px;
-        margin-left: 20px;
-        width: 100%;
+    .container-skills .skill .barra .barra-progreso1 {
+        background-color: #fff;
+        width: 95%;
+        height: 6px;
+        animation: progreso1 2s forwards;
     }
 
-    #contact .form-content .center-line .input-mid {
-        margin-bottom: 27px;
-        right: -23px;
-        width: 100%;
+    .container-skills .skill .barra .barra-progreso2 {
+        background-color: #fff;
+        width: 95%;
+        height: 6px;
+        animation: progreso2 2s forwards;
     }
 
-    #contact .form-content .input-full {
-        margin-bottom: 12px
+    .container-skills .skill .barra .barra-progreso3 {
+        background-color: #fff;
+        width: 60%;
+        height: 6px;
+        animation: progreso3 2s forwards;
     }
-}
 
-    @media (min-width: 576px){
-    .col-sm-9 {
-        flex: 0 0 auto;
-        width: 100%;
+    .container-skills .skill .barra .barra-progreso4 {
+        background-color: #fff;
+        width: 50%;
+        height: 6px;
+        animation: progreso4 2s forwards;
     }
-}
+
+    .container-skills .skill .barra .barra-progreso5 {
+        background-color: #fff;
+        width: 50%;
+        height: 6px;
+        animation: progreso5 2s forwards;
+    }
+
+    @keyframes progreso1 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 95%;
+        }
+    }
+
+    @keyframes progreso2 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 95%;
+        }
+    }
+
+    @keyframes progreso3 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 60%;
+        }
+    }
+
+    @keyframes progreso4 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 50%;
+        }
+    }
+
+    @keyframes progreso5 {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 50%;
+        }
+    }
+
+    #portfolio .title-section {
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #ff5080;
+        text-decoration: underline;
+        text-decoration-color: #d3d3d3;
+        text-decoration-thickness: 5px;
+        padding: 30px;
+    }
+
+    @media screen and (max-width: 800px) {
+        .social-media {
+            display: none;
+        }
+
+        nav {
+            display: none;
+        }
+
+        nav.responsive {
+            display: block;
+            background-color: rgba(0, 0, 0, .8);
+            width: 100%;
+            position: absolute;
+            top: 48px;
+            left: 0;
+            right: 0;
+            padding: 10px 0;
+        }
+
+        nav.responsive ul {
+            display: block !important;
+            text-align: center;
+        }
+
+        nav.responsive ul li {
+            margin: 5px 0;
+        }
+
+        #icon-nav {
+            display: block;
+        }
+
+        #start .content .introduction h2 {
+            font-size: 40px;
+        }
+
+        #start .content .introduction a:hover {
+            background-color: #ff5080;
+        }
+
+        /*ABOUT ME section*/
+
+        #aboutme {
+            padding: 50px 0;
+            display: block;
+            right: 0;
+        }
+
+        #aboutme .foto-content {
+            margin: auto;
+            max-width: 250px;
+            margin-left: 110px;
+        }
+
+        #aboutme .form-content img {
+            padding: 8px;
+        }
+
+        #aboutme .aboutme .title-section {
+            text-align: center;
+        }
+
+        #aboutme .aboutme h2 {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #aboutme .aboutme {
+            margin: 0;
+        }
+
+        /*SKILLS Section*/
+
+        .container-skills {
+            padding: 50px 20px;
+            right: 0;
+        }
+
+        /* PORTFOLIO Section*/
+
+        #portfolio {
+            padding: 50px 0;
+            right: 0;
+        }
+
+        #portfolio .line {
+            display: block;
+        }
+
+        #portfolio .line .project {
+            margin: 10px auto;
+            margin-bottom: 30px;
+        }
+
+        #portfolio .line .porject .overlay {
+            margin-bottom: 70px;
+        }
+
+        /* CONTACT ME Section*/
+        #contact {
+            padding: 50px 15px;
+            right: 0;
+        }
+
+        #contact .form-content .center-line {
+            display: block;
+            padding: inherit;
+        }
+
+        #contact .form-content .center-line input {
+            width: 100%;
+            margin-bottom: 2px;
+            margin-left: -22px;
+        }
+
+        #contact .form-content .center-line .input-midd {
+            margin-bottom: 27px;
+            margin-left: 20px;
+            width: 100%;
+        }
+
+        #contact .form-content .center-line .input-mid {
+            margin-bottom: 27px;
+            right: -23px;
+            width: 100%;
+        }
+
+        #contact .form-content .input-full {
+            margin-bottom: 12px
+        }
+    }
+
+    @media (min-width: 576px) {
+        .col-sm-9 {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+    }
 </style>
 
 <body>
@@ -286,7 +307,7 @@
                         <ul id="links">
                             <li><a href="#start" class="selected" onclick="select(this)">START</a></li>
                             <li><a href="#aboutme" onclick="select(this)">ABOUT ME</a></li>
-                            <li><a href="#skills" onclick="select(this)" >SKILLS</a></li>
+                            <li><a href="#skills" onclick="select(this)">SKILLS</a></li>
                             <li><a href="#portfolio" onclick="select(this)">PROJECTS</a></li>
                             <li><a href="#contact" onclick="select(this)">CONTACT</a></li>
                         </ul>
@@ -314,31 +335,32 @@
     <div class="container">
         <section id="aboutme">
             <div class="row">
-                    <div class="col-sm-3 foto-content">
-                        <img src="DSC_1301.JPG" alt="">
-                    </div>
-                    <div class="col-sm-6 aboutme">
-                        <p class="title-section"> About Me </p>
-                        <h2 class=""> Hi, i'm <span>Maria Hamann</span>
-                        </h2>
-                        <h3> WELLCOME TO MY PAGE</h3>
-                        <p class=""> Im a 22-year-old Student from Frankfurt/Germany, who loves coding and have fun creating
-                            solutions with software to make people lives easier.
-                            I want to create new Things that helps people in their daily life, so i'm learning how to
-                            code/programming by myself and discovering a whole new world.
-                            I'm on my way to become a developer... <br>
-                            Click on the button <b>Download CV</b> if you wanna know more about me.<br>
-                            Down in the Section <b>Projects</b> you will see some of the projects that i'm working in, so don't
-                            wonder if some of them don't look perfect.
-                            I'm still learning...
+                <div class="col-sm-3 foto-content">
+                    <img src="DSC_1301.JPG" alt="">
+                </div>
+                <div class="col-sm-6 aboutme">
+                    <p class="title-section"> About Me </p>
+                    <h2 class=""> Hi, i'm <span>Maria Hamann</span>
+                    </h2>
+                    <h3> WELLCOME TO MY PAGE</h3>
+                    <p class=""> Im a 23-year-old Student from Frankfurt/Germany, who loves coding and have fun creating
+                        solutions with software to make people lives easier.
+                        I want to create new Things that helps people in their daily life, so i'm learning how to
+                        code/programming by myself and discovering a whole new world.
+                        I'm on my way to become a Web developer... <br>
+                        Click on the button <b>Download CV</b> if you wanna know more about me.<br>
+                        Down in the Section <b>Projects</b> you will see some of the projects that i'm working in, so
+                        don't
+                        wonder if some of them don't look perfect.
+                        I still learning...
 
-                        </p>
-                        <a href="CV.pdf" target="_blank">Download CV</a>
-                    </div>
+                    </p>
+                    <a href="Lebenslauf.pdf" target="_blank">Download CV</a>
+                </div>
             </div>
         </section>
     </div>
-    
+
 
     <!--SKILLS SECTION -->
     <section>
@@ -404,27 +426,42 @@
                 <div class="overlay"></div>
                 <img src="sendaemail.png" alt>
                 <div class="info">
-                    <h4>Project description</h4>
-                    <p>Web Design</p>
-                    <a href="https://sendaemail.netlify.app/" target="blank">click here</a>
+                    <a href="https://sendaemail.netlify.app/" target="blank"
+                        style="color: #fff; text-decoration: none;">click here</a>
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
                 <img src="shoppingcar.png" alt>
                 <div class="info">
-                    <h4>Project description</h4>
-                    <p> Web Design</p>
-                    <a href="https://searchacar.netlify.app/" target="blank">click here</a>
+                    <a href="https://shoppingcartsimulation.netlify.app/" target="blank"
+                        style="color: #fff; text-decoration: none;">click here</a>
                 </div>
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="sendaemail.png" alt>
+                <img src="food-recipes.png" alt>
                 <div class="info">
-                    <h4>Project description</h4>
-                    <p>Web Design</p>
-                    <a href="https://searchacar.netlify.app/" target="blank">click here</a>
+                    <a href="https://search-new-recipes.netlify.app/" target="blank"
+                        style="color: #fff; text-decoration: none;">click here</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="pixabay.png" alt>
+                <div class="info">
+                    <a href="https://pixabay-pictures.netlify.app/" target="blank"
+                        style="color: #fff; text-decoration: none;">click here</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="overlay"></div>
+                <img src="newsletter.png" alt>
+                <div class="info">
+                    <a href="https://newsletterexample.netlify.app/" target="blank" style="color: #fff; text-decoration: none;">click
+                        here</a>
                 </div>
             </div>
         </div>
@@ -434,28 +471,28 @@
     <div id="contact" class="container contact">
         <div class="row">
             <h3 class="title-section"> Contact me</h3>
-            <form accept-charset="utf-8" id="standard_detail" method="post" name="standard_detail">
-            <div class="form-content">
+            <form action="https://formsubmit.co/maria-alejandra-alvarez@outlook.com" method="POST" accept-charset="utf-8" id="standard_detail" method="post" name="standard_detail">
+                <div class="form-content">
                     <div class="col-sm-9 center-line">
-                        <input type="text" placeholder="Name *" class="input-midd">
-                        <input type="email" placeholder="Email *" class="input-mid">
+                        <input type="text" placeholder="Name *" name="Name" class="input-midd">
+                        <input type="email" placeholder="Email *" name="Email" class="input-mid">
                     </div>
                     <div class="line">
-                        <input type="text" placeholder="issue" class="input-full">
+                        <input type="text" placeholder="issue" name="issue" class="input-full">
                     </div>
                     <div class="line">
-                        <textarea name id cols="30" rows="10" placeholder="Message..." class="input-full"></textarea>
+                        <textarea name="Message" id cols="30" rows="10" placeholder="Message..." class="input-full"></textarea>
                     </div>
                     <input type="submit" value="Send Message" class="btn-send">
-                </form>
-            </div>
+            </form>
         </div>
+    </div>
     </div>
     </section>
 
     <!--FOOTER-->
     <footer>
-        <p> Copyright - 2022</p>
+        <p> Copyright - 2023</p>
     </footer>
 
     <div style="text-align:right;position:fixed;bottom:3px;
@@ -464,7 +501,7 @@
         <a target="_blank" href="" title="Free Web Hosting with PHP5 or PHP7"></a>
     </div>
 
-    <script language = "javascript" type = "text/javascript">
+    <script language="javascript" type="text/javascript">
 
         function select(link) {
             var options = document.querySelectorAll('#links a');
@@ -485,8 +522,8 @@
             if (x.className === "") {
                 x.className = "responsive";
             } else {
-                    x.className = "";
-                }
+                x.className = "";
+            }
         }
 
         window.onscroll = function () { efectSkills() };
